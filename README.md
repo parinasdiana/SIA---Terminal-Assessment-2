@@ -1,7 +1,9 @@
 # Courses Management API
 
 A basic Express-based REST API built for the PC 24 Terminal Practical Assessment. 
-Maintained and submitted by: Diana Parinas
+**Submitted by:** Diana Parinas
+**Section:** BSITFS-B
+
 
 ## How to Install and Run
 1. Extract the project directory and open your terminal inside it.
