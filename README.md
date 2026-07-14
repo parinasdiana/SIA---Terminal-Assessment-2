@@ -1,7 +1,9 @@
 # Courses Management API
 
 A basic Express-based REST API built for the PC 24 Terminal Practical Assessment. 
+
 **Submitted by:** Diana Parinas
+
 **Section:** BSITFS-B
 
 
