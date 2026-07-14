@@ -9,11 +9,11 @@ app.use(express.json());
 let courses = [
     {
         id: 1,
-        courseCode: "ITE301",
+        courseCode: "PC24",
         courseName: "System Integration and Architecture 1",
         units: 3,
-        instructor: "Mrs. Richelle P. Garcia",
-        submittedBy: "Diana Parinas (YOUR_STUDENT_NUMBER)"
+        instructor: "Mr. Edward James V. Grageda",
+        submittedBy: "Diana Pariñas 423001145"
     }
 ];
 
@@ -58,7 +58,7 @@ app.post('/api/courses', (req, res, next) => {
             courseName,
             units: units || 3,
             instructor: instructor || "TBD",
-            submittedBy: "Diana Parinas (YOUR_STUDENT_NUMBER)"
+            submittedBy: "Diana Pariñas 423001145"
         };
 
         courses.push(newCourse);
@@ -89,7 +89,7 @@ app.put('/api/courses/:id', (req, res, next) => {
             courseName,
             units,
             instructor,
-            submittedBy: "Diana Parinas (YOUR_STUDENT_NUMBER)"
+            submittedBy: "Diana Pariñas 423001145"
         };
 
         res.status(200).json(courses[index]);
